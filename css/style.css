@@ -156,7 +156,7 @@ form ul {
 .work {
   display: grid;
   align-items: center;
-  padding: 114px 24px;
+  padding: 114px 0;
   gap: 88px;
   left: 0;
   top: 100px;
@@ -164,6 +164,7 @@ form ul {
 
 .work.active {
   filter: blur(50px);
+  background-color: #c1c7d0ad;
 }
 
 .grid-item {
@@ -399,9 +400,9 @@ button:hover {
 .close-button {
   border: none;
   background: none;
-  height: 31px;
-  padding-top: 16px;
-  font-size: 20px;
+  height: 60px;
+  padding: 20px;
+  font-size: 30px;
   color: #67798e;
 }
 
@@ -569,7 +570,7 @@ form {
 
 #buttonpic {
   width: 100%;
-  height: 55%;
+  height: 586px;
 }
 
 hr {
@@ -920,9 +921,72 @@ hr {
     display: block;
     background-color: #fff;
     padding-top: 0;
+    overflow: scroll;
   }
 }
 
-/* #form-error {
-  color: red;
-} */
+.detail-img1 {
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.detail-title {
+  width: 30%;
+  margin-left: 60px;
+  margin-right: 91px;
+}
+
+.detail-description {
+  display: flex;
+  padding: 50px;
+}
+
+.detail-link-description {
+  display: block;
+  width: 45%;
+  font-size: 15px;
+}
+
+.detail-text-description p {
+  font-size: 14px;
+  padding-top: 0;
+  margin-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 40px;
+  margin-right: 30px;
+}
+
+.detail-categories > ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 5px;
+}
+
+.detail-categories > ul > li {
+  align-items: center;
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 8px;
+  color: #6070ff;
+}
+
+.detail-button1 {
+  box-sizing: border-box;
+  background-color: white;
+  align-items: center;
+  padding: 8px;
+  width: 110px;
+  height: 48px;
+  left: 0;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
