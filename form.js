@@ -8,5 +8,6 @@ form.addEventListener('submit', (event) => {
   if (casechecker !== formEmail.value) {
     messages.push('please use lower case in your email');
     event.preventDefault();
+    formError.innerText = messages.join(',');
   }
 });
