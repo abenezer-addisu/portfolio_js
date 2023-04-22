@@ -680,17 +680,17 @@ hr {
 
   .buttonmob {
     position: fixed;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 84%;
     border-radius: 5%;
-    height: 55%;
+    height: 85%;
     padding: 3%;
     display: none;
     overflow: scroll;
   }
-
+  
   .buttonmob.active {
     display: block;
     background-color: #fff;
