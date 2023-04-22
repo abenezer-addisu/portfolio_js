@@ -13,12 +13,6 @@ const aboutsection = document.querySelector('.about-myself');
 const contactform = document.querySelector('.form-container');
 const headerpart = document.querySelector('header');
 
-// ---------------------------------------------- //
-// ---------------------------------------------- //
-// ------ SECTION FOR LOADING MODAL DATA -------- //
-// ---------------------------------------------- //
-// ---------------------------------------------- //
-
 const button1 = document.querySelector('.work-button-1');
 const button2 = document.querySelector('.work-button-2');
 const button3 = document.querySelector('.work-button-3');
@@ -26,9 +20,6 @@ const button4 = document.querySelector('.work-button-4');
 let buttonCount = 0;
 let deskCount = 0;
 
-// ----------------------------------------------- //
-// ------------ MODAL ELEMENTS ------------------- //
-// ----------------------------------------------- //
 const modHeader = document.querySelector('.modal-header');
 const modpara1 = document.querySelector('.modal-paragraph-1');
 const modli1 = document.querySelector('.modal-li-1');
@@ -39,7 +30,6 @@ const modli4 = document.querySelector('.modal-li-4');
 const modli5 = document.querySelector('.modal-li-5');
 const mobileLive = document.querySelector('.mobile-live');
 const mobileSrc = document.querySelector('.mobile-src');
-// ----------------------------------------------- //
 
 // desktop version /////////
 const deskmodHeader = document.querySelector('.deskmodal-header');
@@ -55,9 +45,6 @@ const deskmodli7 = document.querySelector('.deskmodal-li-7');
 const deskmodli8 = document.querySelector('.deskmodal-li-8');
 const deskLive = document.querySelector('.desk-live');
 const deskSrc = document.querySelector('.desk-source');
-
-// ------------- MODAL EVENTS -------------------- //
-// ----------------------------------------------- //
 
 button1.addEventListener('click', () => {
   buttonCount = 1;
@@ -75,10 +62,6 @@ button4.addEventListener('click', () => {
   buttonCount = 4;
   deskCount = 8;
 });
-
-// ----------------------------------------------- //
-// ------------- MODAL EVENTS -------------------- //
-// ----------------------------------------------- //
 
 const x = {
   modal_1: {
@@ -365,9 +348,3 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   hamburger.classList.remove('active');
   navul.classList.remove('active');
 }));
-
-// ---------------------------------------------- //
-// ---------------------------------------------- //
-// ------ SECTION FOR LOADING MODAL DATA -------- //
-// ---------------------------------------------- //
-// ---------------------------------------------- //
